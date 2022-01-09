@@ -261,3 +261,10 @@ textarea {
   }
 }
 
+/* ------ */
+#content {
+  background-color: black;
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;  
+}

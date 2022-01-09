@@ -268,3 +268,23 @@ textarea {
   text-align: center;
   width: 100%;  
 }
+
+.flute {
+  line-height: 100vh;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  vertical-align: middle;
+}
+.flute img {
+  height: auto;
+  max-width: 75%;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}

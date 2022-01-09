@@ -1,15 +1,14 @@
-/* Particles */
-const configParticleJs = {
+{
   "particles": {
     "number": {
-      "value": 200,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#cda960"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -37,7 +36,7 @@ const configParticleJs = {
       }
     },
     "size": {
-      "value": 7,
+      "value": 5,
       "random": true,
       "anim": {
         "enable": false,
@@ -47,7 +46,7 @@ const configParticleJs = {
       }
     },
     "line_linked": {
-      "enable": false,
+      "enable": true,
       "distance": 150,
       "color": "#ffffff",
       "opacity": 0.4,
@@ -56,11 +55,10 @@ const configParticleJs = {
     "move": {
       "enable": true,
       "speed": 6,
-      "direction": "top",
+      "direction": "none",
       "random": false,
       "straight": false,
       "out_mode": "out",
-      "bounce": false,
       "attract": {
         "enable": false,
         "rotateX": 600,
@@ -73,7 +71,7 @@ const configParticleJs = {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
@@ -83,7 +81,7 @@ const configParticleJs = {
     },
     "modes": {
       "grab": {
-        "distance": 140,
+        "distance": 400,
         "line_linked": {
           "opacity": 1
         }
@@ -96,8 +94,7 @@ const configParticleJs = {
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 200
       },
       "push": {
         "particles_nb": 4
@@ -107,8 +104,13 @@ const configParticleJs = {
       }
     }
   },
-  "retina_detect": true
-};
-
-particlesJS("particles-js", configParticleJs);
-particlesJS("particles-js2", configParticleJs);
+  "retina_detect": true,
+  "config_demo": {
+    "hide_card": false,
+    "background_color": "#b61924",
+    "background_image": "",
+    "background_position": "50% 50%",
+    "background_repeat": "no-repeat",
+    "background_size": "cover"
+  }
+}

@@ -263,7 +263,10 @@ textarea {
 
 /* ------ */
 #content {
-  background-color: black;
+  /* background-color: #484d4b; /* 30% lum */
+  /* background-color: #303332; /* 20% lum */
+  background-color: #242625; /* 15% lum */
+  /* background-color: #181a19; /* 10% lum */
   min-height: 100vh;
   text-align: center;
   width: 100%;  
@@ -287,4 +290,19 @@ textarea {
 
 .right {
   right: 0;
+}
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+/* Repositionner dans le verre */
+.particlesJs {
+  position: absolute;
+  width: 50%;
+  height: 47%;
+  left: calc(50% - 90px);
 }
